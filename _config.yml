@@ -1,0 +1,14 @@
+# Site settings
+title: ColdWM's Resume
+email: chansp87@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  ColdWM's resume
+baseurl: "/resume" # the subpath of your site, e.g. /blog/
+url: "https://coldwm.github.io" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
